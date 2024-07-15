@@ -21,7 +21,7 @@ This was tested in Windows10 and Windows11 systems with Visual Studio 2022 IDE.
 
 # How to use the application
 
-'
+```
 Usage: AtlasCreationTool.exe -h -help -? -nomipmap -volume -halftexel -integer -margin <m> -width <w> -height <h> -depth <d> -o <filename> <img1> <img2> <img3> ...
 
 -nomipmap     only writes out the top-level mipmap
@@ -34,11 +34,13 @@ Usage: AtlasCreationTool.exe -h -help -? -nomipmap -volume -halftexel -integer -
 -depth <d>    limits texture atlases to a maximum depth of d slices
 -o <filename> mandatory option that specifies output filename (default.tai, default0.dds)
 img           A source image filename or a file search mask
-'
+```
 
 Usage examples:
-'AtlasCreationTool.exe -halftexel -o Default Textures\*.png'
-'AtlasCreationTool.exe -integer -margin 2 -width 4096 -height 4096 -o MyAtlas *.jpg *.png cars\wrc*.png d:\opt\logo.jpg'
+```
+AtlasCreationTool.exe -halftexel -o Default Textures\*.png
+AtlasCreationTool.exe -integer -margin 2 -width 4096 -height 4096 -o MyAtlas *.jpg *.png cars\wrc*.png d:\opt\logo.jpg
+```
 
 The output result will be one TAI dictionary file and one or more DDS atlas texture files.
 
