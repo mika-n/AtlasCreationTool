@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Documentation">
+      <UniqueIdentifier>{0d48613c-b524-42da-800a-e14b787747e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX9Framework">
+      <UniqueIdentifier>{f830e670-6143-4456-9110-4ae3b7537855}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AtlasContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdLineOptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Packer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureAtlasTool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9SDKSampleFramework\d3dapp.cpp">
+      <Filter>DX9Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9SDKSampleFramework\d3denumeration.cpp">
+      <Filter>DX9Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9SDKSampleFramework\d3dfile.cpp">
+      <Filter>DX9Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9SDKSampleFramework\d3dfont.cpp">
+      <Filter>DX9Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9SDKSampleFramework\d3dsaver.cpp">
+      <Filter>DX9Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9SDKSampleFramework\d3dsettings.cpp">
+      <Filter>DX9Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9SDKSampleFramework\d3dutil.cpp">
+      <Filter>DX9Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="DX9SDKSampleFramework\dxutil.cpp">
+      <Filter>DX9Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TATypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AtlasContainer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdLineOptions.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Packer.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureAtlasTool.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureObject.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AtlasCreationTool.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Docs\Batching_Via_Texture_Atlases.pdf">
+      <Filter>Documentation</Filter>
+    </None>
+    <None Include="Docs\UserGuide.pdf">
+      <Filter>Documentation</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="PrgNotes.txt">
+      <Filter>Documentation</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

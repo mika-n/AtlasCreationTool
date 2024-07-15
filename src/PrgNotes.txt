@@ -1,0 +1,28 @@
+
+
+
+- Update User's guide
+==========================================
+- adjust wrap fudge interactively?!
+- clean up the global mess that the viewer is in: 
+
+- make atlas display of quad:
+  - scale appropriately w/ texture dimensions...
+  - stack for volume textures?
+  
+- switch over to refrast so these things and become vid-card caps independent...
+
+- encode swizzle style 2D placement algs: enables more square atlases:
+  required for cube-map support
+- add cubemap support: simply collect 6 (or less!) same size texture into a cube map
+  ignore width/height as a first step, ie can only collect same size, square textures 
+  into a cube
+
+- volumes should properly support -width -hiehgt: doesn't right now. 
+  should code brute force alg that tries all possible width/height 
+  combinations to find width-height-depth config that takes up least amount of bytes.
+  
+- add cubemap support: simply collect 6 (or less!) same size texture into a cube map
+  fully general ala volume maps (see above)
+
+
