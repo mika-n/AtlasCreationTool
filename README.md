@@ -27,7 +27,7 @@ Usage: AtlasCreationTool.exe -h -help -? -nomipmap -volume -halftexel -integer -
 -nomipmap     only writes out the top-level mipmap
 -volume       only valid w/ -nomipmap; make atlases volume textures
 -halftexel    adds a half-texel offset to the generated texture coordinates
--integer      offsets as integer values in TAI atlas dictionary file nstead of 0.0-1.0 normalized float coordinates
+-integer      offsets as integer values in TAI atlas dictionary file instead of 0.0-1.0 normalized float coordinates
 -margin <m>   adds a margin of m pixels between images within the atlas texture. The default is 0
 -width <w>    limits texture atlases to a maximum width of w texels (output will be shrink smaller if possible)
 -height <h>   limits texture atlases to a maximum height of h texels (output will be shrink smaller if possible)
